@@ -1,0 +1,767 @@
+/* @font-face {
+  font-family: popin;
+  src: url('../fonts/poppins-regular.ttf');
+} */
+
+* {
+  user-select: none !important;
+}
+
+.background-ani {
+  animation: fadein 0.5s ease;
+}
+
+@keyframes fadein1 {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.disapear {
+  opacity: 0 !important;
+  transition: 0.5s ease-in !important;
+  pointer-events: none;
+}
+
+
+.appear {
+  opacity: 1;
+  pointer-events: inherit;
+}
+
+
+.mybg {
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: "fixed";
+  top: 0px;
+
+}
+
+
+.successBtn {
+  animation: fadein 0.4s 5;
+
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.sceneBase {
+  width: 100%;
+  height: 100%;
+}
+
+
+.aniObject {
+  animation: fadein 1s ease;
+  user-select: none;
+}
+
+.aniObject3 {
+  animation: fadein 0.2s;
+}
+
+.aniObjectDelay {
+  animation: fadein2 2s;
+}
+
+.aniObjectDelay3 {
+  animation: fadein3 0.3s ease-in 4;
+}
+
+.laterLoadObj {
+  animation: lateLoad 1s;
+}
+
+.aniObjectDelay2 {
+  animation: delayAni2 8s;
+}
+
+@keyframes delayAni2 {
+  0% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes lateLoad {
+  0%, 50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadein2 {
+  0%, 40% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein3 {
+  0%, 100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.shineAniFalse {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.bubblehide {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.shineAniTrue {
+  opacity: 1;
+  transition: 0.3s;
+
+}
+
+@keyframes shine-Ani {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.show {
+  display: inline-block;
+  animation: fadein2 0.8s;
+}
+
+.hide {
+  display: none;
+  animation: none;
+}
+
+
+
+.onlyshow {
+  display: inline-block;
+  animation: none;
+}
+
+
+
+.disapear {
+  opacity: 0;
+  transition: 0.5s ease-in ;
+}
+
+.disapearGirl {
+  opacity: 0;
+  transition: 0.0s ease-in !important ;
+}
+.disapearFrog {
+  opacity: 0;
+  transition: 1.5s ease-in !important ;
+}
+
+
+
+.appear {
+  opacity: 1;
+}
+
+.shinewink {
+  animation: shinewinkAni 0.4s 3;
+
+}
+
+@keyframes shinewinkAni {
+  0%, 100% {
+    opacity: 0;
+
+
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+}
+
+
+.brush-scaleBtn {
+  animation: brushAni 0.8s infinite;
+  transition: 0.5s ease-in;
+  cursor: pointer !important;
+}
+
+.brush-scaleBtn:hover {
+  animation: brushAni-hover 4s 1;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes brushAni {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+
+  }
+}
+
+@keyframes brushAni-hover {
+  0% {
+    transform: scale(1) translateY(0%) translateX(0%) rotateZ(0deg);
+  }
+
+  10% {
+    transform: scale(1.1) translateY(-5%) translateX(-5%) rotateZ(-15deg);
+  }
+
+  90% {
+    transform: scale(1.1) translateY(-5%) translateX(-5%) rotateZ(-15deg);
+  }
+}
+
+
+
+
+.cloth-scaleBtn {
+  animation: clothAni 0.8s infinite;
+  transition: 0.5s ease-in;
+  cursor: pointer !important;
+}
+
+.cloth-scaleBtn:hover {
+  animation: clothAni-hover 4s 1;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes clothAni {
+  0%, 100% {
+    transform: scale(1.0) translateY(-0%);
+    opacity: 0.9;
+
+
+  }
+
+  50% {
+    transform: scale(1.02) translateY(1%);
+    ;
+    opacity: 1;
+
+  }
+}
+
+@keyframes clothAni-hover {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.05) translateY(2%);
+  }
+
+  90% {
+    transform: scale(1.05) translateY(2%);
+  }
+}
+
+
+
+
+
+
+
+
+
+.water-scaleBtn {
+  animation: waterAni 0.6s infinite;
+  transition: 0.5s ease-in;
+}
+
+.water-scaleBtn:hover {
+  animation: waterAni-hover 4s 1;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes waterAni {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes waterAni-hover {
+  0% {
+    transform: scale(1) translateY(0%) translateX(0%) rotateZ(0deg);
+  }
+
+  10% {
+    transform: scale(1.1) translateY(-5%) translateX(-5%) rotateZ(-15deg);
+  }
+
+  90% {
+    transform: scale(1.1) translateY(-5%) translateX(-5%) rotateZ(-15deg);
+  }
+}
+
+
+
+
+
+.brush1-scaleBtn {
+  animation: brushAni1 0.8s infinite;
+  transition: 0.5s ease-in;
+}
+
+.brush1-scaleBtn:hover {
+  animation: brushAni1-hover 0.4s ease-in infinite;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes brushAni1 {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+
+  }
+}
+
+@keyframes brushAni1-hover {
+  0%, 100% {
+    transform: scale(1) translateY(0%) translateX(0%);
+  }
+
+  20% {
+    transform: scale(1) translateY(-5%) translateX(7%);
+  }
+
+  80% {
+    transform: scale(1) translateY(5%) translateX(-7%);
+  }
+
+}
+
+
+
+
+
+
+
+.comb-scaleBtn {
+  animation: combAni 0.8s infinite;
+}
+
+.comb-scaleBtn:hover {
+  animation: combAni-hover 0.4s ease-in infinite;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes combAni {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+
+  }
+}
+
+@keyframes combAni-hover {
+  0%, 100% {
+    transform: scale(1) translateY(0%) translateX(0%);
+  }
+
+  20% {
+    transform: scale(1) translateY(-5%) translateX(7%);
+  }
+
+  80% {
+    transform: scale(1) translateY(5%) translateX(-7%);
+  }
+
+}
+
+
+
+
+
+.towel-scaleBtn {
+  animation: towel 0.8s infinite;
+  transition: 0.5s ease-in;
+}
+
+.towel-scaleBtn:hover {
+  animation: towel-hover 0.4s ease-in infinite;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes towel {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+
+  }
+}
+
+@keyframes towel-hover {
+  0%, 100% {
+    transform: scale(1) translateY(0%) translateX(0%);
+  }
+
+  20% {
+    transform: scale(1) translateX(-8%);
+  }
+
+  80% {
+    transform: scale(1) translateX(8%);
+  }
+
+}
+
+
+
+
+
+
+.water-scaleBtn1, .star-scaleBtn {
+  animation: waterAni1 0.6s infinite;
+  transition: 0.5s ease-in;
+}
+
+.water-scaleBtn1:hover, .star-scaleBtn:hover {
+  animation: waterAni1-hover 4s 1;
+
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes waterAni1 {
+  0%, 100% {
+    transform: scale(1.0);
+    opacity: 0.8;
+
+  }
+
+  50% {
+    transform: scale(1.02);
+    opacity: 1;
+  }
+}
+
+@keyframes waterAni1-hover {
+  0% {
+    transform: scale(1);
+  }
+
+  10% {
+    transform: scale(1.05);
+  }
+
+  90% {
+    transform: scale(1.05);
+  }
+}
+
+
+
+.starBtn1 {
+  animation: fadein 1.5s;
+}
+
+.starBtn2 {
+  animation: fadein 2.5s;
+}
+
+.starBtn3 {
+  animation: fadein 3.5s;
+}
+
+.starBtn4 {
+  animation: fadein 4.5s;
+}
+
+.starBtn5 {
+  animation: fadein 5.5s;
+}
+
+.starBtn6 {
+  animation: fadein 6.5s;
+
+}
+
+.towelBtn {
+  width: 100%;
+  height: 100%;
+  margin-left: 0%;
+  margin-top: 0%;
+  cursor: pointer;
+}
+
+
+.towelBtn:hover {
+  width: 110%;
+  height: 110%;
+  margin-left: -5%;
+  margin-top: -5%;
+}
+
+
+/* --------- by cheng 2021.1.25 */
+
+
+.startBtn {
+  animation: startBtn 1.2s infinite;
+
+}
+
+.startBtn:hover {
+  /* animation: startBtn-hover 0.4s ease-in infinite; */
+  cursor: pointer;
+  /* transition:  0.2s ease-out; */
+  /* transform:  */
+}
+
+@keyframes startBtn {
+  0%, 60%, 100% {
+    transform: scale(1.0);
+
+  }
+
+  30% {
+    transform: scale(1.1);
+  }
+}
+
+.non-interact {
+  pointer-events: none;
+  user-select: none;
+}
+
+.introText {
+  animation: introTextAni 1s;
+  animation-timing-function: ease-in-out;
+  opacity:1 
+}
+
+
+@keyframes introTextAni {
+  0%, 20% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.subText {
+  animation: subTextAni 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes subTextAni {
+  0%, 60% {
+    bottom: -5%;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 5%;
+    opacity: 1;
+  }
+}
+
+
+.changeTran {
+  width: 8%;
+  height: 8%;
+  position: fixed;
+  right: -75%;
+  top: 30%;
+  animation: changeTranAni 10s;
+
+}
+
+@keyframes changeTranAni {
+  0% {
+    transform: rotateZ(120deg);
+  }
+
+  8% {
+    transform: rotateZ(-65deg);
+  }
+
+  16%, 100% {
+    transform: translateY(4000%) rotateZ(-65deg);
+  }
+}
+
+.changeTran1 {
+  width: 8%;
+  height: 8%;
+  position: fixed;
+  right: -95%;
+  top: 30%;
+  animation: changeTranAni1 10s;
+
+}
+
+@keyframes changeTranAni1 {
+  0% {
+    transform: rotateZ(120deg);
+  }
+
+  8% {
+    transform: rotateZ(-65deg);
+  }
+
+  16%, 100% {
+    transform: translateY(4000%) rotateZ(-65deg);
+  }
+}
+
+.disapearGirlShap {
+  transition: 1s ease-in !important ;
+  opacity: 0;
+  
+}
+
+
+.excellentText {
+  animation: excellentTextAni 1.4s;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes excellentTextAni {
+  0%, 50% {
+    transform: scale(0.2);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.commonButton:active {
+  /* background-color: rgba(251, 255, 0, 0.85);
+  border-radius: 50%; */
+  transition: 0.1s;
+  transform: scale(0.85);
+}
+
+.commonButton {
+  transform: scale(1);
+  cursor: pointer;
+  transition: ease-in 0.1s;
+}
+
+*{
+  user-select: none;
+}
+
+
+.hideObject{
+  opacity: 0;
+}
+
+.showObject{
+  opacity: 1;
+}
+
+img{
+  pointer-events: none;
+}

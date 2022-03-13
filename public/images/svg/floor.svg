@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1600 900" style="enable-background:new 0 0 1600 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{fill:#74B5E4;}
+	.st2{opacity:0.23;fill:url(#SVGID_3_);enable-background:new    ;}
+	.st3{opacity:0.27;fill:#A8DBE2;enable-background:new    ;}
+	.st4{opacity:0.37;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+<g id="Layer_5">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="1600" height="900"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<polygon class="st1" points="0,0.5 1600,0 1600,897.6 0,900 			"/>
+			
+				<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="810.9117" y1="502.9198" x2="786.8717" y2="1273.6298" gradientTransform="matrix(1 0 0 -1 0 900)">
+				<stop  offset="0" style="stop-color:#5AB1B1"/>
+				<stop  offset="0.16" style="stop-color:#56ABAB"/>
+				<stop  offset="0.38" style="stop-color:#4C9999"/>
+				<stop  offset="0.48" style="stop-color:#479090"/>
+				<stop  offset="0.53" style="stop-color:#509494"/>
+				<stop  offset="0.61" style="stop-color:#68A09F"/>
+				<stop  offset="0.71" style="stop-color:#90B2B0"/>
+				<stop  offset="0.82" style="stop-color:#C7CCC8"/>
+				<stop  offset="0.85" style="stop-color:#D2D1CD"/>
+			</linearGradient>
+			<path class="st2" d="M1614.5,0c0,0,2.5,466.8,2.9,466.9C1166.4,290,611.5,114.9-17.4,2.2C-17.2,2.5,1614.5,0,1614.5,0z"/>
+			<path class="st3" d="M174.3,681.6l-23.4,256.2h391.2l20.5-257.1L174.3,681.6z"/>
+			<polygon class="st3" points="937.3,681.6 937.3,937.8 1330,937.8 1312.4,679.7 			"/>
+			<g class="st4">
+				<line class="st5" x1="250" y1="-298" x2="131.9" y2="1176"/>
+				<line class="st5" x1="605.7" y1="-264.9" x2="533.3" y2="1103.7"/>
+				<line class="st5" x1="913.2" y1="-321.6" x2="937.3" y2="1103.7"/>
+				<line class="st5" x1="1246.1" y1="-298" x2="1341.2" y2="1103.7"/>
+				<line class="st5" x1="-25" y1="188.9" x2="1616" y2="188.9"/>
+				<line class="st5" x1="-34" y1="681.6" x2="1620" y2="681.6"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
